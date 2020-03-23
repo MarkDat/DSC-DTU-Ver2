@@ -1,0 +1,22 @@
+
+#contact{ 
+    text-align: center;
+    background-color:  whitesmoke;
+}
+#contact .ctContact img{
+    width: 150px;
+    height: 90px;
+}
+
+#contact .showContactt{
+    animation: animateContact 2s forwards;
+}
+
+@keyframes animateContact{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

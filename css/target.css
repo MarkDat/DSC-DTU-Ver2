@@ -1,0 +1,33 @@
+#target{
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.display-svg-target{
+    display: none;
+    stroke-dashoffset: 1500;
+    stroke-dasharray: 1500;
+  
+}
+
+
+
+#g2593 path{
+    fill: #f5f5f5;
+}
+#g2581 path{
+    fill: #f5f5f5;
+}
+@keyframes svgCustomer{
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes moveTG{
+    0%{
+        transform: translateY(400px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}

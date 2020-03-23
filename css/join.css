@@ -1,0 +1,28 @@
+
+#join{
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.personJoin{
+    fill: transparent;
+    stroke: black;
+    stroke-width: 1px;
+    stroke-dashoffset: 1500;
+    stroke-dasharray: 1500;
+    animation: svgJoin 4s forwards;
+}
+
+@keyframes svgJoin{
+    to{
+        stroke-dashoffset: 0;
+    }
+    48%{
+        fill: transparent;
+    }
+    100%{
+        fill: black;
+    }
+}
+
+

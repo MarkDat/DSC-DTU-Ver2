@@ -1,0 +1,13 @@
+#whatIsDSC{
+    background-color: whitesmoke;
+    text-align: center;
+}
+.title{
+    font-weight: bold;
+    font-size: 30px;
+}
+.ct{
+    display: inline-block;
+    width: 80%;
+    font-size: 25px;
+}

@@ -1,0 +1,122 @@
+*{
+    font-family: 'Inconsolata', monospace;
+}
+#banner{
+    position: absolute;
+    top: 0;
+    left: 10%;
+    background-color: rgba(12, 10, 10, 0.664);
+    width: 75%;
+    height: 87%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+#logo{
+   
+    position: relative;
+    width: 150px;
+    height: 90px;
+    margin-top: 4%;
+    left: 7%;
+    transform: translateX(-50%);
+}
+#svgLogo{
+    top:0;
+    text-align: center;
+    display: inline-block;
+}
+#welcome{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%,-50%);
+}
+.twoButton{
+    list-style-type: none;
+    height: auto;
+    padding-left: 0.5%;
+    display: inline-block;
+}
+.btn{
+    float: left;
+    padding-right: 10px;
+}
+button{
+    color: white;
+    background: none;
+    width: 75px;
+    height: 75px;
+    border: 1px solid transparent;
+    border-color: white;
+    border-radius: 50%;
+}
+.twoButton button a{
+    text-decoration: none;
+}
+ .twoButton .btn1{ transition: all 0.6s ease-in-out;  }
+.twoButton .btn2{ transition: all 0.5s ease-in-out;  }
+ .btns:hover{
+    transform: rotateZ(360deg);
+    background-color: rgba(255, 255, 255, 0.856);
+    color: #111;
+    box-shadow: none;
+    outline: none;
+    cursor: pointer;
+}
+#back{
+    display: none;
+    position: absolute;
+    top: 0;
+    color: black;
+    font-weight: bolder;
+    background-color: none;
+}
+#back:hover{
+    transform: rotateZ(360deg);
+    background-color: rgb(85, 84, 84);
+    color:white;
+    box-shadow: none;
+    outline: none;
+    cursor: pointer;
+}
+.draw{
+    font-family:'Permanent Marker', cursive;
+    display: inline-block;
+    fill: transparent;
+    stroke: white;
+    stroke-width: 2px;
+    stroke-dashoffset: 155;
+    stroke-dasharray: 150;
+    animation: draw 5s forwards;
+}
+
+@keyframes draw{
+    to{
+        fill: black;
+        stroke-dashoffset: 0;
+    }
+}
+.wordsFly{
+    color: white;
+}
+#home{
+    background-image: url('../pt/br/dsc.jpg');
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-position: center center;
+}
+
+
+#services{
+    background-color: rosybrown;
+}
+#contact{
+    background-color: sandybrown;
+}
+
+/* #pp-nav{
+    background-color: pink;
+} */
